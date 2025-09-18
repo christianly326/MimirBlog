@@ -1,6 +1,6 @@
 ---
 title: "Posts by Sprint"
-layout: sprint
-permalink: /sprint/
+layout: categories
+permalink: /categories/
 author_profile: true
 ---
