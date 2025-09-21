@@ -1,6 +1,4 @@
 main:
-  - title: "Posts"
-    url: /posts/
   - title: "Sprints"
     url: /categories/
   - title: "Tags"
