@@ -3,6 +3,6 @@ permalink: /about/
 title: "About"
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+This online blog acts as a history of logs for the development of [Christian Lagura Yacapin](https://www.linkedin.com/in/christian-michael-lagura-yacapin-852709287/) and [Diana Williams Oshun](https://www.linkedin.com/in/diana-williams-oshun/)'s Fourth Year Computer Science Project @ [Dublin City University](https://www.dcu.ie/)
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+To find more about the project please contact [Christian Lagura Yacapin](https://www.linkedin.com/in/christian-michael-lagura-yacapin-852709287/) and [Diana Williams Oshun](https://www.linkedin.com/in/diana-williams-oshun/) through LinkedIn
