@@ -9,12 +9,15 @@ tags:
 ---
 
 **Date:** May 5, 2025
+
 <!--more-->
 
 **Attendees:** Diana Williams Oshun, Christian Michael Lagura Yacapin
+
 <!--more-->
 
-We we planned and started Sprint 3 today, with our primary goal being to draft the comprehensive Functional Specification document. Diana started by creating an empty template to visualize the full scope of work required.
+We planned and started Sprint 3 today, with our primary goal being to draft the comprehensive Functional Specification document. Diana started by creating an empty template to visualize the full scope of work required.
+
 <!--more-->
 
 We divided the sections to ensure a balanced workload:
@@ -25,5 +28,3 @@ We divided the sections to ensure a balanced workload:
 <!--more-->
 
 We also created a ticket for Diana to immediately action Dr. Nie's feedback by updating the competitor analysis.
-
-
