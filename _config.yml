@@ -62,7 +62,7 @@ plugins:
 author:
   name: "Mimir Team"
   avatar: "/assets/images/bio-photo.png"
-  bio: "Mimir Team"
+  bio: "The development team behind the Mimir Project. Mimir is a fourth year project team for the development of a Smart Mirror and a Companion Mobile App"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
