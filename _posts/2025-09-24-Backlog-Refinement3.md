@@ -7,7 +7,6 @@ tags:
   - meeting
   - refinement
 show_date: true
-show_header: true
 excerpt_separator: "<!--more-->"
 ---
 
