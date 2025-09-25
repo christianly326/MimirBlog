@@ -1,19 +1,17 @@
 ---
 title: "Backlog Refinement"
-excerpt_separator: "<!--more-->"
+date: 2025-09-24
 categories:
   - Sprint 7
 tags:
   - meeting
   - refinement
+show_date: true
+show_header: true
+excerpt_separator: "<!--more-->"
 ---
 
-**Date:** September 24, 2025
-
-<!--more-->
-
 **Attendees:** Diana Williams Oshun, Christian Michael Lagura Yacapin
-
 The group refined a few tickets that were added in the backlog:
 
 - Companion App UI navigation
@@ -22,7 +20,6 @@ The group refined a few tickets that were added in the backlog:
 - Companion App Home page
 - Companion App Login page
 - Django Backend User model
-
 <!--more-->
 
 **Conclusion Notes**
@@ -35,5 +32,3 @@ The Group discussed that the research for pipelines and CI/CD needed to be carri
 Diana Williams Oshun has agreed to take on the research for 1 story point.
 
 Unexpected "Risk assessment" has been found on the proposal doc, re-adjustment of story point estimation (1->2) on MT-52
-
-<!--more-->
