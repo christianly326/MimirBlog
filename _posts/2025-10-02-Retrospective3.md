@@ -10,7 +10,10 @@ date: 2025-10-02
 show_date: true
 ---
 
-Retrospective for Sprint 7
+**Current story points completed**:
+
+- Diana Williams Oshun -> 25 Completed story points
+- Christian Michael Lagura Yacapin -> 28 Completed story points
 
 **What went well:**
 

@@ -2,39 +2,27 @@
 title: "Sprint Planning"
 excerpt_separator: "<!--more-->"
 categories:
-  - Sprint 7
+  - Sprint 8
 tags:
   - meeting
   - sprint planning
+date: 2025-10-02
+show_date: true
 ---
 
-**Date:** September 18, 2025
-<!--more-->
+New notes for the upcoming Proposal date has been made
+
+An agreed upon booking for the day where we could talk and prep for the proposal has been made for the upcoming thursday.
+
+Creating testing format for AI model has been assigned to Christian Michael Lagura Yacapin
+
+Testing AI model tickets have been assigned to Diana Williams Oshun
+
+_Story points assigned_:
+
+- Christian -> 2
+- Diana -> 4
+
+**Facilitator:** Christian Michael Lagura Yacapin
 
 **Attendees:** Diana Williams Oshun, Christian Michael Lagura Yacapin
-<!--more-->
-
-We began by reviewing the current state of Sprint 6; a few tickets remain in the review state but are confirmed to be completed by the end of the day, allowing us to cleanly transition to the new sprint. The goal of Sprint 7 is to finalize all administrative groundwork and kick off the initial technical build phases.
-<!--more-->
-
-Work Allocation:
-<!--more-->
-
-Diana:
-
-- Ethics Form: Taking the lead on drafting the ethics application for project approval.
-
-- API Connections: Researching and establishing the foundational code for connecting to external APIs (Weather/Calendar).
-
-- Order Physical Components: Researching vendors and placing the order for the mirror, two-way glass, Raspberry Pi, and other hardware.
-
-- GitLab & Admin Setup: Finalizing the move to GitLab and confirming our official team registration with the university.
-
-Christian:
-
-- Document Conversion: Converting the final versions of the Proposal and Functional Spec into Markdown and uploading them to the new repository.
-
-- References: Compiling and adding a comprehensive list of references and resources to the Functional Specification document.
-<!--more-->
-
-A joint ticket was made for both members to thoroughly review the official Fourth Year Project website and rubric. This is crutial to ensure we have absolute clarity on all upcoming deadlines, deliverable requirements, and assessment criteria, leaving no room for misunderstanding.
