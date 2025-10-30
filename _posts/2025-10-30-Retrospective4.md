@@ -25,7 +25,8 @@ show_date: true
 - Not all tickets completed
 
 **Start Doing:**
-_No new notes were made_
+
+- Remember to end sprint Diana
 
 **Stop Doing:**
 
