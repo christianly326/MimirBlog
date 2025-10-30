@@ -6,7 +6,7 @@ categories:
 tags:
   - meeting
   - sprint planning
-date: 2025-10-16
+date: 2025-10-30
 show_date: true
 ---
 
