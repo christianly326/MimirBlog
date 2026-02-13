@@ -1,6 +1,6 @@
 ---
 title: "Sprint Planning"
--->"
+excerpt_sepataor: "<!--more-->"
 categories:
   - Sprint 11
 tags:
