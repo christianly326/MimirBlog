@@ -29,4 +29,4 @@ We updated Dr. Nie of our progress since the last meeting
 
 <!--more-->
 
-**Attendees:** Christian Michael Lagura Yacapin, Dongyun Robin Nie
+**Attendees:** Diana Williams Oshun, Christian Michael Lagura Yacapin, Dongyun Robin Nie
