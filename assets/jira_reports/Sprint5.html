@@ -1,0 +1,421 @@
+<html
+        xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<title>Jira</title>
+<style type="text/css">
+table {
+    mso-displayed-decimal-separator:"\.";
+    mso-displayed-thousand-separator:"\,";
+}
+body
+{
+    margin: 0px;
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+    color:black;
+}
+
+</style>
+<META HTTP-EQUIV="Content-Type" Content="application/vnd.ms-excel; charset=UTF-8">
+<!-- JRA-7598 - ensure fields (e.g. description) occupy only one cell - even fields containing newlines. -->
+<!--
+Vertical align all cells to the top, in order to align all issue rows of issuetable to the top,
+since Excel does not use or save the css files it is hardcoded here.
+-->
+<style>
+@page
+{
+mso-page-orientation:landscape;
+margin:.25in .25in .5in .25in;
+mso-header-margin:.5in;
+mso-footer-margin:.25in;
+mso-footer-data:"&R&P of &N";
+mso-horizontal-page-align:center;
+mso-vertical-page-align:center;
+}
+
+td.issuekey,
+td.issuetype,
+td.status {
+    mso-style-parent: "";
+    mso-number-format: \@;
+    text-align: left;
+}
+br
+{
+    mso-data-placement:same-cell;
+}
+
+td
+{
+    vertical-align: top;
+}
+</style>
+
+<!--[if gte mso 9]><xml>
+<x:ExcelWorkbook>
+<x:ExcelWorksheets>
+<x:ExcelWorksheet>
+<x:Name>general_report</x:Name>
+<x:WorksheetOptions>
+<x:Print>
+<x:ValidPrinterInfo/>
+</x:Print>
+</x:WorksheetOptions>
+</x:ExcelWorksheet>
+</x:ExcelWorksheets>
+</x:ExcelWorkbook>
+</xml><![endif]-->
+</head>
+<body>
+
+<table border="1">
+    <tr bgcolor="#205081" height="30">
+        <td colspan="10">
+            <img src="https://project-mimir.atlassian.net/images/icon-jira-family-logo.png" width="57" height="30" border="0" alt="Jira">
+        </td>
+    </tr>
+    <tr>
+        <td colspan="10">
+            <a href="https://project-mimir.atlassian.net/issues/?jql=project+%3D+MT+AND+Sprint+%3D+100+ORDER+BY+cf%5B10016%5D+ASC%2C+assignee+ASC%2C+reporter+ASC%2C+created+DESC">Jira</a>
+        </td>
+    </tr>
+    <tr>
+                <td colspan="10">
+            Displaying <strong>10</strong> issues at <strong>04/Mar/26 2:51 PM</strong>.
+        </td>
+    </tr>
+</table>
+
+
+
+
+                                        <table id="issuetable" class="aui " border="1" cellpadding="3" cellspacing="1" width="100%">
+                        <thead>
+        <tr class="rowHeader">
+            
+                                                            <th class="colHeaderLink headerrow-issuetype" data-id="issuetype">
+                                                        Issue Type
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-issuekey" data-id="issuekey">
+                                                        Key
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-summary" data-id="summary">
+                                                        Summary
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-assignee" data-id="assignee">
+                                                        Assignee
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-reporter" data-id="reporter">
+                                                        Reporter
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-priority" data-id="priority">
+                                                        Priority
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-status" data-id="status">
+                                                        Status
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-resolution" data-id="resolution">
+                                                        Resolution
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-created" data-id="created">
+                                                        Created
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-customfield_10016" data-id="customfield_10016">
+                                                        Story point estimate
+                                                    </th>
+                                                                    </tr>
+    </thead>
+    <tbody>
+                    
+
+                <tr id="issuerow10109" rel="10109" data-issuekey="MT-38" class="issuerow">
+                                            <td class="issuetype">    Task
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="MT-38" href="https://project-mimir.atlassian.net/browse/MT-38">MT-38</a>
+</td>
+                                            <td class="summary"><p>
+                Project Management tools
+    </p>
+</td>
+                                            <td class="assignee">            Christian Michael Lagura Yacapin
+    </td>
+                                            <td class="reporter">            Diana Williams
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Done&lt;/span&gt;">Done</span>    </td>
+                                            <td class="resolution">    Done
+</td>
+                                            <td class="created"> 24/May/25 12:32 PM </td>
+                                            <td class="customfield_10016">    1
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10104" rel="10104" data-issuekey="MT-33" class="issuerow">
+                                            <td class="issuetype">    Task
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="MT-33" href="https://project-mimir.atlassian.net/browse/MT-33">MT-33</a>
+</td>
+                                            <td class="summary"><p>
+                Constraints
+    </p>
+</td>
+                                            <td class="assignee">            Christian Michael Lagura Yacapin
+    </td>
+                                            <td class="reporter">            Diana Williams
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Done&lt;/span&gt;">Done</span>    </td>
+                                            <td class="resolution">    Done
+</td>
+                                            <td class="created"> 24/May/25 12:30 PM </td>
+                                            <td class="customfield_10016">    1
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10167" rel="10167" data-issuekey="MT-43" class="issuerow">
+                                            <td class="issuetype">    Task
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="MT-43" href="https://project-mimir.atlassian.net/browse/MT-43">MT-43</a>
+</td>
+                                            <td class="summary"><p>
+                Research on competitors CHINESE VER.
+    </p>
+</td>
+                                            <td class="assignee">            Diana Williams
+    </td>
+                                            <td class="reporter">            Christian Michael Lagura Yacapin
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Done&lt;/span&gt;">Done</span>    </td>
+                                            <td class="resolution">    Done
+</td>
+                                            <td class="created"> 02/Jun/25 10:54 AM </td>
+                                            <td class="customfield_10016">    1
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10103" rel="10103" data-issuekey="MT-32" class="issuerow">
+                                            <td class="issuetype">    Task
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="MT-32" href="https://project-mimir.atlassian.net/browse/MT-32">MT-32</a>
+</td>
+                                            <td class="summary"><p>
+                Step by Step Scenarios
+    </p>
+</td>
+                                            <td class="assignee">            Diana Williams
+    </td>
+                                            <td class="reporter">            Diana Williams
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Done&lt;/span&gt;">Done</span>    </td>
+                                            <td class="resolution">    Done
+</td>
+                                            <td class="created"> 24/May/25 12:30 PM </td>
+                                            <td class="customfield_10016">    1
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10107" rel="10107" data-issuekey="MT-36" class="issuerow">
+                                            <td class="issuetype">    Task
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="MT-36" href="https://project-mimir.atlassian.net/browse/MT-36">MT-36</a>
+</td>
+                                            <td class="summary"><p>
+                Software System Attributes
+    </p>
+</td>
+                                            <td class="assignee">            Christian Michael Lagura Yacapin
+    </td>
+                                            <td class="reporter">            Diana Williams
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Done&lt;/span&gt;">Done</span>    </td>
+                                            <td class="resolution">    Done
+</td>
+                                            <td class="created"> 24/May/25 12:32 PM </td>
+                                            <td class="customfield_10016">    2
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10106" rel="10106" data-issuekey="MT-35" class="issuerow">
+                                            <td class="issuetype">    Task
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="MT-35" href="https://project-mimir.atlassian.net/browse/MT-35">MT-35</a>
+</td>
+                                            <td class="summary"><p>
+                Mirror View mockup
+    </p>
+</td>
+                                            <td class="assignee">            Christian Michael Lagura Yacapin
+    </td>
+                                            <td class="reporter">            Diana Williams
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Done&lt;/span&gt;">Done</span>    </td>
+                                            <td class="resolution">    Done
+</td>
+                                            <td class="created"> 24/May/25 12:31 PM </td>
+                                            <td class="customfield_10016">    2
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10100" rel="10100" data-issuekey="MT-29" class="issuerow">
+                                            <td class="issuetype">    Task
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="MT-29" href="https://project-mimir.atlassian.net/browse/MT-29">MT-29</a>
+</td>
+                                            <td class="summary"><p>
+                Product/ System Functions
+    </p>
+</td>
+                                            <td class="assignee">            Diana Williams
+    </td>
+                                            <td class="reporter">            Diana Williams
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Done&lt;/span&gt;">Done</span>    </td>
+                                            <td class="resolution">    Done
+</td>
+                                            <td class="created"> 24/May/25 12:29 PM </td>
+                                            <td class="customfield_10016">    2
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10105" rel="10105" data-issuekey="MT-34" class="issuerow">
+                                            <td class="issuetype">    Task
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="MT-34" href="https://project-mimir.atlassian.net/browse/MT-34">MT-34</a>
+</td>
+                                            <td class="summary"><p>
+                Companion App mockup
+    </p>
+</td>
+                                            <td class="assignee">            Christian Michael Lagura Yacapin
+    </td>
+                                            <td class="reporter">            Diana Williams
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Done&lt;/span&gt;">Done</span>    </td>
+                                            <td class="resolution">    Done
+</td>
+                                            <td class="created"> 24/May/25 12:31 PM </td>
+                                            <td class="customfield_10016">    3
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10108" rel="10108" data-issuekey="MT-37" class="issuerow">
+                                            <td class="issuetype">    Task
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="MT-37" href="https://project-mimir.atlassian.net/browse/MT-37">MT-37</a>
+</td>
+                                            <td class="summary"><p>
+                System Architecture
+    </p>
+</td>
+                                            <td class="assignee">            Diana Williams
+    </td>
+                                            <td class="reporter">            Diana Williams
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Done&lt;/span&gt;">Done</span>    </td>
+                                            <td class="resolution">    Done
+</td>
+                                            <td class="created"> 24/May/25 12:32 PM </td>
+                                            <td class="customfield_10016">    3
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10102" rel="10102" data-issuekey="MT-31" class="issuerow">
+                                            <td class="issuetype">    Task
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="MT-31" href="https://project-mimir.atlassian.net/browse/MT-31">MT-31</a>
+</td>
+                                            <td class="summary"><p>
+                Use Cases
+    </p>
+</td>
+                                            <td class="assignee">            Christian Michael Lagura Yacapin
+    </td>
+                                            <td class="reporter">            Diana Williams
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Done&lt;/span&gt;">Done</span>    </td>
+                                            <td class="resolution">    Done
+</td>
+                                            <td class="created"> 24/May/25 12:30 PM </td>
+                                            <td class="customfield_10016">    5
+</td>
+                    </tr>
+        </tbody>
+    </table>
+    <div class="end-of-stable-message"></div>
+            <table border="1" >
+<tr>
+    <td bgcolor="#dddddd" colspan="10"><font size="1">
+        Generated at Wed Mar 04 14:51:41 UTC 2026 by Christian Michael Lagura Yacapin using Jira 1001.0.0-SNAPSHOT#100290-rev:d7a70950e1a4e5c164d6209d2ef4b8e087014727.
+    </font></td>
+</tr>
+</table>
+
+</body>
+</html>
